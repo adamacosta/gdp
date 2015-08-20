@@ -1,0 +1,18 @@
+Package: gdp
+Title: Historical GDP, CPI, and Unemployment
+Version: 0.1.0.9000
+Date: 2015-08-18
+Authors@R: person(
+  "Adam", "Acosta",
+  email = "adam.acosta@gatech.edu",
+  role = c("aut", "cre"))
+Description: Includes the datasets gdp, cpi, and unemp.
+License: CC0
+LazyData: TRUE
+Depends:
+  R (>= 3.2.0)
+Suggests:
+  dplyr,
+  tidyr,
+  lubridate
+URL: http://github.com/adamacosta/gdp
